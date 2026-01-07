@@ -4,17 +4,16 @@ A MATLAB implementation for generating **Orbital Angular Momentum (OAM)** carryi
 
 This project is an optimized, vectorized refactoring of the original code developed at Colgate University. It is designed to generate phase patterns for **Spatial Light Modulators (SLM)**.
 
-![OAM Pattern Visualization](results/preview.png)
+![OAM Pattern Visualization](SLMpat_Restored.bmp)
 *(Note: Please replace this path with an actual screenshot of your result, e.g., `results/SLMpat_Restored.bmp`)*
 
 ## 📜 Credits and Attribution
 
 The core physical algorithms and logic are based on the work of:
 * **Brett Rojec** and **Prof. Kiko Galvez**
-* *Department of Physics and Astronomy, Colgate University*
-* Original Project: [Forked Diffraction Grating](http://colgatephys111.blogspot.com/) (or relevant link if available)
 
-**Modifications by Peijie Sun (BIT):**
+
+**Modifications by pj sun (BIT):**
 * **Vectorization:** Refactored nested loops into MATLAB matrix operations (`meshgrid`, `cart2pol`) for high-speed generation.
 * **Refactoring:** Simplified the variable naming and logical flow to strictly align with the complex amplitude superposition principle.
 * **Optimization:** Improved computational efficiency for high-resolution (1024x1024) SLM patterns.
