@@ -4,8 +4,8 @@ A MATLAB implementation for generating **Orbital Angular Momentum (OAM)** carryi
 
 This project is an optimized, vectorized refactoring of the original code developed at Colgate University. It is designed to generate phase patterns for **Spatial Light Modulators (SLM)**.
 
-![OAM Pattern Visualization](results/preview.png)
-*(Note: Please replace this path with an actual screenshot of your result, e.g., `results/SLMpat_Restored.bmp`)*
+![OAM Pattern Visualization](results/SLMpat_Restored.bmp)
+
 
 ## 📜 Credits and Attribution
 
